@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tech Fest</title>
+        <link rel="stylesheet" href="TechFest.html.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+
+        <header id="home">
+            <div class="header-container">
+                <h1>Tech Fest</h1>
+                <p>Innovate. Inspire. Ignite.</p>
+            </div>
+        </header>
+        
+
+        <section id="about" class="section-container">
+            <h2>About Tech Fest</h2>
+            <p>
+                Tech Fest 2026 is the biggest college technology event of the year!
+                Join developers, designers, and innovators for workshops, competitions,
+                networking, and exciting keynote sessions.
+            </p>
+            <p>
+                The event brings together students, faculty, industry professionals, 
+                and tech enthusiasts for a full day of innovation, collaboration, and learning. 
+                Participants will engage in hands-on workshops, coding competitions, 
+                panel discussions, and networking sessions with leading experts from 
+                top tech companies.
+            </p>
+        </section>
+
+        <section id="schedule" class="section-container">
+            <h2>Schedule</h2>
+            <div class="container">
+                <div class="column">
+                <table class="schedule-table">
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>8:30 AM</td>
+                        <td>Registration & Check-In</td>
+                        <td>Entrance Lobby</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening Keynote</td>
+                        <td>Main Hall</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 AM</td>
+                        <td>Workshop: AI & Machine Learning</td>
+                        <td>Room 101</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Cybersecurity Capture-The-Flag</td>
+                        <td>Cyber Lab</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Panel Discussion: Future of Tech</td>
+                        <td>Main Hall</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Cloud Computing Workshop</td>
+                        <td>Seminar Room A</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td>Free Time / Exhibition</td>
+                        <td>Exhibition Area</td>
+                    </tr>
+                    <tr>
+                        <td>5:30 PM</td>
+                        <td>Networking & Career Fair</td>
+                        <td>Exhibition Area</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM</td>
+                        <td>Overnight Hackathon Kickoff</td>
+                        <td>Room 102</td>
+                    </tr>
+                </table>
+                <p>Join us for a day of innovation and collaboration! 
+                    Listening to many great speakers and participating in exciting events.</p>
+                </div>
+                <div class="column">
+                <img src="https://images.squarespace-cdn.com/content/v1/63d40fe2cbd65e16cb8098b6/1703717561610-67A1NAXA7N6Q40D9SIHG/Wikimedia_Hackathon_San_Francisco_107.jpg" class="image-container">
+                </div>
+            </div>
+        </section>
+
+        <section id="speakers" class="section-container">
+            <h2>Speakers</h2>
+            <!-- Fake people with random pictures from the internet -->
+            <div class="speaker-card">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Dr. Ethan Cole">
+                <h3>Dr. Ethan Cole</h3>
+                <p>AI & Robotics Researcher</p>
+                <p>Lead Scientist at NovaTech Labs specializing in autonomous systems and machine learning innovation.</p>
+            </div>
+
+            <div class="speaker-card">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ms. Aria Bennett">
+                <h3>Ms. Aria Bennett</h3>
+                <p>Cybersecurity Architect</p>
+                <p>Head of Security at CipherCore Solutions with expertise in ethical hacking and cloud defense systems.</p>
+            </div>
+
+            <div class="speaker-card">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Mr. Lucas Ramirez">
+                <h3>Mr. Lucas Ramirez</h3>
+                <p>Full Stack Developer & Startup Founder</p>
+                <p>Founder of CodeSpark, capable of mentoring young developers and building scalable web platforms.</p>
+            </div>
+        </section>
+
+        <section id="register" class="section-container">
+            <h2>Register Now</h2>
+
+            <form class="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="cs">Computer Science</option>
+                    <option value="ee">Electrical Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Contact: info@techfest2026.com | Phone: (123) 456-7890</p>
+            <p>@TechFest2026</p>
+        </footer>
+    </body>
+</html>
