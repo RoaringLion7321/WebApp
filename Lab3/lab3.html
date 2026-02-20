@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+    <div>
+    <h1>Student Management System</h1>
+    
+    <input type="text" id="search" placeholder="Search by name...">
+
+    <select id="sortSelect">
+        <option value="">Sort By...</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="age">Age (Ascending)</option>
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody">
+
+        </tbody>
+    </table>
+    </div>
+
+    <div>
+    <h2>Add New Student</h2>
+    <form id="addStudentForm">
+        <input type="text" id="studentName" placeholder="Name" required>
+        <input type="text" id="studentAge" placeholder="Age" required>
+        <input type="text" id="studentCourse" placeholder="Course" required>
+        <button type="submit">Add Student</button>
+    </form>
+    </div>
+
+    <script src="lab3.js"></script>
+</body>
+</html>
