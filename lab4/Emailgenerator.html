@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="Emailgenerator.html.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Admission Form</h1>
+        <form method="POST" action="emailcreator.php">
+            <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" 
+                       placeholder="Enter your first name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" 
+                       placeholder="Enter your last name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="dateOfBirth">Date of Birth *</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="department">Department *</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="cs">Computer Science (CS)</option>
+                    <option value="ec">Electronics (EC)</option>
+                    <option value="me">Mechanical (ME)</option>
+                    <option value="ce">Civil (CE)</option>
+                    <option value="it">Information Technology (IT)</option>
+                </select>
+            </div>
+            
+            <button type="submit">Generate Email ID</button>
+        </form>
+    </div>
+</body>
+</html>
